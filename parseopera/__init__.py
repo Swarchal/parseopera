@@ -1,1 +1,1 @@
-from parseopera import parse_filepath
+from parseopera.parse import parse_filepath
