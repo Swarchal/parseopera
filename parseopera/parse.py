@@ -37,5 +37,5 @@ def parse_filepath(filepath):
 
 def row_col_to_well(row, column):
     letters = string.ascii_uppercase
-    return "{}{:02d}".format(letters[row], column)
+    return "{}{:02d}".format(letters[row-1], column)
 
